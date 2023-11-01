@@ -70,6 +70,6 @@ jobs:
           app-name: 'AddDailyQuestion'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D240EC88D8B843D380E79267C0253F5B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_67B8BFEB761E48E8BBB3EF2F59748036 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
